@@ -46,6 +46,11 @@ p{
     color: #6E5353;
 }
 
+.box p {
+    padding: 50px;
+    color: #6E5353;
+}
+
 header {
     display: flex;
     padding: 10px 20px;
@@ -54,6 +59,8 @@ header {
     background-color: #FF9794;
     color: #fff;
 }
+
+
 
 .flex{
     display: flex;
@@ -77,11 +84,45 @@ header {
     margin-right: auto;
 }
 
+.flex h3{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .item .flex img{
     display: flex;
     width: 60px;
     height: 54px;
     align-items: flex-start;
+}
+
+.box-text p{
+    padding: 20px;
+}
+
+.small-text{
+    display: flex;
+    padding: 0;
+    margin: 0;
+align-items: center;
+gap: 20px;
+}
+
+.small-text p{
+    font-size: 15px;
+    padding: 20px;
+    margin: 0;
+
+}
+
+.small-text h1{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+     color: #6E5353;
+        font-family: "Kiwi Maru", serif;
+    font-weight: 600;
 }
 
 .visual {
@@ -102,10 +143,6 @@ header {
     height: 350px;
 }
 
-.box p {
-    padding: 50px;
-    color: #6E5353;
-}
 
 .box-text {
     padding: 10px 0px;
